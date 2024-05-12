@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /model
 
 # Copying files
-COPY . .
+COPY . /model
 
 # Dependency installation
 RUN pip install --no-cache-dir -r requirements.txt
