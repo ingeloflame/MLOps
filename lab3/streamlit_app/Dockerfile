@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /streamlit_app
 
 # Copying files
-COPY . .
+COPY . /streamlit_app
 
 # Dependency installation
 RUN pip install --no-cache-dir -r requirements.txt
